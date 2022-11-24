@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.virtusa.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.826 sec <<< FAILURE!
+testlogin1(com.virtusa.AppTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key passeord
+	at java.base/java.util.ResourceBundle.getObject(ResourceBundle.java:563)
+	at java.base/java.util.ResourceBundle.getString(ResourceBundle.java:520)
+	at com.virtusa.App.userLogin(App.java:10)
+	at com.virtusa.AppTest.testlogin1(AppTest.java:10)
+
+testlogin2(com.virtusa.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key passeord
+	at java.base/java.util.ResourceBundle.getObject(ResourceBundle.java:563)
+	at java.base/java.util.ResourceBundle.getString(ResourceBundle.java:520)
+	at com.virtusa.App.userLogin(App.java:10)
+	at com.virtusa.AppTest.testlogin2(AppTest.java:17)
+
